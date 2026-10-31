@@ -1,0 +1,17 @@
+export { default as Hero } from "./Hero";
+export { default as MarqueeBanner } from "./MarqueeBanner";
+export { default as Benefits } from "./Benefits";
+export { default as Access } from "./Access";
+export { default as Results } from "./Results";
+export { default as Trails } from "./Trails";
+export { default as Learning } from "./Learning";
+export { default as Offer } from "./Offer";
+export { default as About } from "./About";
+export { default as HowItWorks } from "./HowItWorks";
+export { default as Specialist } from "./Specialist";
+export { default as Audience } from "./Audience";
+export { default as CallToAction } from "./CallToAction";
+export { default as Reasons } from "./Reasons";
+export { default as Testimonials } from "./Testimonials";
+export { default as FAQ } from "./FAQ";
+export { default as Footer } from "./Footer";
