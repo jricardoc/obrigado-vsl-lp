@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
     if (!existingVturbScript) {
       const script = document.createElement("script");
       script.src =
-        "https://scripts.converteai.net/3f99e868-8a2c-4153-b834-85a358ba11f4/players/6ae66f5dc3ff612f67d52c34/v4/player.js";
+        "https://scripts.converteai.net/3f99e868-8a2c-4153-b834-85a358ba11f4/players/6ae6825c932c1d4c2396a2ff/v4/player.js";
       script.async = true;
       document.head.appendChild(script);
     }
@@ -126,7 +126,7 @@ const Hero: React.FC = () => {
           <VideoWrapper ref={videoContainerRef}>
             <div
               dangerouslySetInnerHTML={{
-                __html: `<vturb-smartplayer id="vid-6ae66f5dc3ff612f67d52c34" style="display: block; margin: 0 auto; width: 100%;"></vturb-smartplayer>`,
+                __html: `<vturb-smartplayer id="vid-6ae6825c932c1d4c2396a2ff" style="display: block; margin: 0 auto; width: 100%;"></vturb-smartplayer>`,
               }}
             />
           </VideoWrapper>
